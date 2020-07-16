@@ -1,0 +1,29 @@
+.DisplayTrips{
+    margin:2%;
+    padding:1%;
+    border: 1px solid #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
+    display:flex;
+    flex-direction:column;
+}
+
+.DisplayTrips li{
+    list-style-type: none;
+    margin-bottom:1%
+}
+
+.DisplayTrips li:last-of-type{
+    margin-bottom:5%
+}
+
+.flag {
+    width: 250px;
+    height: 150px;
+    background-size:cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:3%;
+    border: solid 5px #f8f8f8;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+}
