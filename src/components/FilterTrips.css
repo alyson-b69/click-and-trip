@@ -1,3 +1,14 @@
 select{
     margin-left:1%;
 }
+
+@media screen and (max-width: 500px) {
+
+    select{
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top:2%;
+     margin-bottom:2%;
+    }
+  }
